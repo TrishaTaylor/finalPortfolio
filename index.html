@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/variable.css">
+   
     <title>Patricia Taylor's Portfolio</title>
 </head>
-<body>
-
-  <nav>
-    <div class="logo">
-        <img src="" alt="Your Logo">
-    </div>
+<nav>
+    <a href="index.html" class="logo">
+        <button class="home-button">Home</button>
+    </a>
     <input type="checkbox" id="menu-toggle">
     <label for="menu-toggle" class="menu-icon">
         <span></span>
@@ -27,16 +26,30 @@
     </ul>
 </nav>
 
-      
     <section class="hero">
-      <div class="hero-content">
-          <div class="hero-text">
-              <h1>Hi, my name is Patricia Taylor</h1>
-              <p>A UX Designer with 20+ years experience in Graphic Design. I love designing awesome products and elevating the overall user experience.</p>
-              <button>Learn More</button>
-          </div>
-      </div>
-  </section>
+        <div class="hero-content">
+            <div class="hero-text-wrapper">
+                <div class="hero-text">
+                    <h1>Hi, my name is Patricia Taylor</h1>
+                    <p>A UX Designer with 20+ years experience in Graphic Design. I love designing awesome products and elevating the overall user experience.</p>
+                    <a href="contact.html" class="hero-button">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <script>
+        // JavaScript to handle menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('change', function() {
+            if (menuToggle.checked) {
+                menu.style.display = 'block';
+            } else {
+                menu.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
