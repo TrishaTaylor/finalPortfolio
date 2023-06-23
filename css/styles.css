@@ -135,13 +135,32 @@ a {
 }
 
 .hero-content {
-    text-align: left;
+    text-align: center;
     color: #fff;
     padding: 0 20px;
     display: flex;
-    justify-content: flex-start;
-    align-items: left;
+    flex-direction: column;
+    align-items: center;
 }
+
+.hero-text-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .hero-content {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .hero-text-wrapper {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
 
 .hero-text-wrapper {
     max-width: 500px;
