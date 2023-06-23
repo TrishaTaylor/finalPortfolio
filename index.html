@@ -6,25 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/variable.css">
-   
     <title>Patricia Taylor's Portfolio</title>
+    <style>
+        /* CSS styles */
+    </style>
 </head>
-<nav>
-    <a href="index.html" class="home-button">
-        <button class="home-button">Home</button>
-    </a>
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
-    <ul class="menu">
-        <li><a href="graphic-design.html">Graphic Design</a></li>
-        <li><a href="ux-design.html">UX Case Study</a></li>
-        <li><a href="contact.html">Let's Connect</a></li>
-    </ul>
-</nav>
+<body>
+    <nav>
+        <a href="index.html" class="home-button">
+            <button class="home-button">Home</button>
+        </a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="menu">
+            <li><a href="graphic-design.html">Graphic Design</a></li>
+            <li><a href="ux-design.html">UX Case Study</a></li>
+            <li><a href="contact.html">Let's Connect</a></li>
+        </ul>
+    </nav>
 
     <section class="hero">
         <div class="hero-content">
@@ -38,17 +41,17 @@
         </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        // JavaScript to handle menu toggle
-        const menuToggle = document.getElementById('menu-toggle');
-        const menu = document.querySelector('.menu');
-
-        menuToggle.addEventListener('change', function() {
-            if (menuToggle.checked) {
-                menu.style.display = 'block';
-            } else {
-                menu.style.display = 'none';
-            }
+        $(document).ready(function() {
+            // jQuery to handle menu toggle
+            $('#menu-toggle').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.menu').css('display', 'block');
+                } else {
+                    $('.menu').css('display', 'none');
+                }
+            });
         });
     </script>
 </body>
