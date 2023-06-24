@@ -173,6 +173,15 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 24px;
+    }
+    .hero-text p {
+        font-size: 14px;
+    }
+}
+
 .hero-text button {
     background-color: #0ACEF8;
     color: white;
