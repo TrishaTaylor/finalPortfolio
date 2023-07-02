@@ -57,7 +57,7 @@ nav {
 .menu-icon .hamburger-line {
   width: 30px;
   height: 3px;
-  background-color: #eeebeb;
+  background-color: white;
   margin-bottom: 5px;
   transition: background-color 0.3s ease;
 }
@@ -127,6 +127,10 @@ nav {
     max-width: 100%;
     margin: 0;
   }
+
+  .menu-icon {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -150,6 +154,10 @@ nav {
   }
 
   .menu-icon .hamburger-line {
+    background-color: white;
+  }
+
+  #menu-toggle:checked + .menu-icon .hamburger-line {
     background-color: white;
   }
 
@@ -195,4 +203,3 @@ p {
 .hero-button:hover {
   background-color: #5B5BAF;
 }
-
