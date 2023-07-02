@@ -42,12 +42,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
-            // jQuery to handle menu toggle
+           // jQuery to handle menu toggle
             $('#menu-toggle').change(function() {
                 if ($(this).is(':checked')) {
-                    $('.menu').css('display', 'block');
+                $('.menu-icon .hamburger-line').css('background-color', 'white');
+                $('.menu').css('display', 'flex');
                 } else {
-                    $('.menu').css('display', 'none');
+                $('.menu-icon .hamburger-line').css('background-color', 'black');
+                $('.menu').css('display', 'none');
                 }
             });
         });

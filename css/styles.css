@@ -57,7 +57,7 @@ nav {
 .menu-icon .hamburger-line {
   width: 30px;
   height: 3px;
-  background-color: white;
+  background-color: #eeebeb;
   margin-bottom: 5px;
   transition: background-color 0.3s ease;
 }
@@ -150,11 +150,7 @@ nav {
   }
 
   .menu-icon .hamburger-line {
-    background-color: black
-  }
-
-  #menu-toggle:checked + .menu-icon .hamburger-line {
-    background-color: black
+    background-color: white;
   }
 
   #menu-toggle:checked ~ .menu {
@@ -199,3 +195,4 @@ p {
 .hero-button:hover {
   background-color: #5B5BAF;
 }
+
