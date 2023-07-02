@@ -54,7 +54,7 @@ nav {
   display: none;
 }
 
-.menu-icon .hamburger-line {
+.menu-icon span {
   width: 30px;
   height: 3px;
   background-color: white;
@@ -62,7 +62,7 @@ nav {
   transition: background-color 0.3s ease;
 }
 
-.menu-icon .hamburger-line:last-child {
+.menu-icon span:last-child {
   margin-bottom: 0;
 }
 
@@ -153,11 +153,11 @@ nav {
     cursor: pointer;
   }
 
-  .menu-icon .hamburger-line {
+  .menu-icon span {
     background-color: white !important;
   }
 
-  #menu-toggle:checked + .menu-icon .hamburger-line {
+  #menu-toggle:checked + .menu-icon span {
     background-color: white !important;
   }
 
@@ -180,6 +180,10 @@ nav {
   #menu-toggle:checked ~ .menu a {
     color: white;
     font-size: 16px;
+  }
+  
+  .hero-button:hover {
+    background-color: #5B5BAF !important;
   }
 }
 
