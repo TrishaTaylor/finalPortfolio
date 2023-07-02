@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+body, h1, p, a, button {
+  font-family: 'Open Sans', sans-serif;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
