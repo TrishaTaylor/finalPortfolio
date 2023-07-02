@@ -181,6 +181,10 @@ nav {
     color: white;
     font-size: 16px;
   }
+  
+  .hero-button:hover {
+    background-color: #5B5BAF !important;
+  }
 }
 
 p {
@@ -198,8 +202,4 @@ p {
   font-size: 16px;
   transition: background-color 0.3s ease;
   text-decoration: none;
-}
-
-.hero-button:hover {
-  background-color: #5B5BAF;
 }
