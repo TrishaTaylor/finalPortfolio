@@ -154,7 +154,7 @@ nav {
   }
 
   .menu-icon .hamburger-line {
-    background-color: white;
+    background-color: white !important;
   }
 
   #menu-toggle:checked + .menu-icon .hamburger-line {
