@@ -245,6 +245,7 @@ p {
   height: 600px;
   overflow-x: auto;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 
@@ -253,6 +254,8 @@ p {
   align-items: center;
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 0 0 calc(50% - 68px);
+  margin-bottom: 136px;
 }
 
 .card-img {
