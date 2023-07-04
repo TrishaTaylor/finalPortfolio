@@ -265,7 +265,7 @@ p {
 
 .card-content {
   flex: 1 1 auto;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Media query for smaller screens */
@@ -283,4 +283,40 @@ p {
     margin-right: 0;
     margin-bottom: 10px;
   }
+}
+
+.card-content .line1 {
+  color: #0ACEF8;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-content .line2 {
+  display: flex;
+  width: 527px;
+  flex-direction: column;
+}
+
+.card-content .line3 {
+  color: #000;
+  font-size: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-content .line4 {
+  display: flex;
+  width: 527px;
+  flex-direction: column;
+  color: #000;
+  font-size: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
