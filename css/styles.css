@@ -324,4 +324,5 @@ p {
 .card-container .card img {
   width: 424px;
   height: 295px;
+  object-fit: cover;
 }
