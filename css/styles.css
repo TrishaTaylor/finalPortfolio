@@ -229,3 +229,37 @@ p {
       font-size: 48px;
   }
 }
+
+/* Card styles */
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.card-content {
+  flex: 1 1 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card-img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
