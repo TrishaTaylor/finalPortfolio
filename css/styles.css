@@ -233,7 +233,6 @@ p {
 /* Card styles */
 .card-container {
   background: #FFF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 155.5px 176.3px;
   display: flex;
   justify-content: center;
@@ -253,7 +252,6 @@ p {
   display: flex;
   align-items: center;
   background-color: #fff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   flex: 0 0 calc(50% - 68px);
   margin-bottom: 136px;
 }
