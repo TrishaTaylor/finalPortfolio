@@ -239,6 +239,7 @@ p {
   align-items: center;
   gap: 136px;
   flex-shrink: 0;
+  flex-wrap: wrap;
 }
 
 .card {
