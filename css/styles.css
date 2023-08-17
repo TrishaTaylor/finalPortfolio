@@ -209,7 +209,7 @@ p {
 }
 
 .hero-section {
-  background: url(<path-to-image>), lightgray 0px 0px / 150.397% 100% no-repeat;
+  background: url('./'), lightgray 0px 0px / 150.397% 100% no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
